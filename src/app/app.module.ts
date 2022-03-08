@@ -7,6 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { ProdutosComponent } from './produtos/produtos.component';
 import { ContatoComponent } from './contato/contato.component';
+import { PortaAntiComponent } from './porta-anti/porta-anti.component';
+import { JanelaAntiComponent } from './janela-anti/janela-anti.component';
+import { PersianaComponent } from './persiana/persiana.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ContatoComponent } from './contato/contato.component';
     HomeComponent,
     EmpresaComponent,
     ProdutosComponent,
-    ContatoComponent
+    ContatoComponent,
+    PortaAntiComponent,
+    JanelaAntiComponent,
+    PersianaComponent
   ],
   imports: [
     BrowserModule,
